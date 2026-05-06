@@ -1,4 +1,5 @@
 //--------------------------------------------------------------------------
+// Copyright (C) 2026 Trout Software
 // Copyright (C) 2014-2026 Cisco and/or its affiliates. All rights reserved.
 // Copyright (C) 2007-2013 Sourcefire, Inc.
 //
@@ -31,6 +32,7 @@
 
 #include "text_log.h"
 
+#include <fcntl.h>
 #include <sys/stat.h>
 #include <time.h>
 
@@ -79,11 +81,14 @@ static FILE* TextLog_Open(const char* name, bool is_critical=true)
     if ( !strcasecmp(name, "stdout") )
     {
 #ifdef USE_STDLOG
-        FILE* stdlog = fdopen(STDLOG_FILENO, "w");
-        return stdlog ? stdlog : stdout;
-#else
-        return stdout;
+        // Check if the file handle exists, on musl, fdopen will just return the given handle
+        if ( fcntl(STDLOG_FILENO, F_GETFD) != -1 )
+        {
+            FILE* stdlog = fdopen(STDLOG_FILENO, "w");
+            return stdlog ? stdlog : stdout;
+        }
 #endif
+        return stdout;
     }
 
     return open_log_file(name, is_critical);

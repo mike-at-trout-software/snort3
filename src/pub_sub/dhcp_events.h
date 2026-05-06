@@ -21,6 +21,7 @@
 #define DHCP_EVENTS_H
 
 #include <cstring>
+#include "framework/data_bus.h"
 #include "pub_sub/appid_event_ids.h"
 
 #define DHCP_OP55_MAX_SIZE  64
@@ -29,9 +30,11 @@
 namespace snort
 {
 
-class DHCPInfoEvent : public snort::DataEvent
+class __attribute__((visibility("default"))) DHCPInfoEvent : public snort::DataEvent
 {
 public:
+    virtual ~DHCPInfoEvent();
+
     DHCPInfoEvent(const snort::Packet* p, uint32_t ip_address, const uint8_t* eth,
         uint32_t subnet_mask, uint32_t lease_secs, uint32_t router) :
         pkt(p), ip_address(ip_address), subnet_mask(subnet_mask),
