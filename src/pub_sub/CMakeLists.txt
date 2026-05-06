@@ -45,6 +45,7 @@ add_library( pub_sub OBJECT
     ${PUB_SUB_INCLUDES}
     cip_events.cc
     detection_events.cc
+    dhcp_events.cc
     dns_events.cc
     eof_event.cc
     http_body_event.cc
