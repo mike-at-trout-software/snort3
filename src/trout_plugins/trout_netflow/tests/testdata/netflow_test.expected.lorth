@@ -1,0 +1,794 @@
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48841" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "81" .
+  payload "39" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "81" .
+  payload "39" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "47361" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "81" .
+  payload "39" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "81" .
+  payload "39" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48841" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "177" .
+  payload "135" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "258" .
+  payload "174" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "47361" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "193" .
+  payload "151" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "274" .
+  payload "190" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "74" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "74" .
+  payload "0" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "74" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "148" .
+  payload "0" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "66" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "214" .
+  payload "0" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "191" .
+  payload "125" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "405" .
+  payload "125" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "66" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "471" .
+  payload "125" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "0" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "471" .
+  payload "125" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "839" .
+  payload "773" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "1310" .
+  payload "898" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "59152" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "85" .
+  payload "43" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "85" .
+  payload "43" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "46739" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "85" .
+  payload "43" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "85" .
+  payload "43" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "59152" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "181" .
+  payload "139" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "266" .
+  payload "182" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "46739" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "197" .
+  payload "155" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "282" .
+  payload "198" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "74" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "74" .
+  payload "0" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "74" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "148" .
+  payload "0" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "66" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "214" .
+  payload "0" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "195" .
+  payload "129" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "409" .
+  payload "129" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ delta {
+  packet "66" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "475" .
+  payload "129" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "0" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "475" .
+  payload "129" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "1466" .
+  payload "1400" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "1941" .
+  payload "1529" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "1532" .
+  payload "1400" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "3473" .
+  payload "2929" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "1532" .
+  payload "1400" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "5005" .
+  payload "4329" .
+ }
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "66" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "1376" .
+  payload "898" .
+ }
+ end_time "1970-01-01T00:00:00.000000000Z" .
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ service "http" .
+ delta {
+  packet "66" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "5071" .
+  payload "4329" .
+ }
+ end_time "1970-01-01T00:00:00.000000000Z" .
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48841" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "0" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "258" .
+  payload "174" .
+ }
+ end_time "1970-01-01T00:00:00.000000000Z" .
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "47361" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "0" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "274" .
+  payload "190" .
+ }
+ end_time "1970-01-01T00:00:00.000000000Z" .
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "59152" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "0" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "266" .
+  payload "182" .
+ }
+ end_time "1970-01-01T00:00:00.000000000Z" .
+};
+$ {
+ start_time "1970-01-01T00:00:00.000000000Z" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "46739" .
+  }
+ }
+ endpoint {
+  addr {
+   ip "10.67.21.1" .
+   ":" .
+   port "53" .
+  }
+ }
+ delta {
+  packet "0" .
+  payload "0" .
+  time "1970-01-01T00:00:00.000000000Z" .
+ }
+ acc {
+  packet "282" .
+  payload "198" .
+ }
+ end_time "1970-01-01T00:00:00.000000000Z" .
+};

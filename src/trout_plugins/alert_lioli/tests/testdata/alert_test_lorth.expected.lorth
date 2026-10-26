@@ -1,0 +1,100 @@
+$ {
+ timestamp "1970-01-01T00:00:00.000000000Z" .
+ sid "0" .
+ gid "1" .
+ rev "2" .
+ priority "0" .
+ alert "\"This is a log of an http header\"" .
+ protocol "http" .
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ host "google.com" .
+ method "GET" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+};
+$ {
+ timestamp "1970-01-01T00:00:00.000000000Z" .
+ sid "0" .
+ gid "1" .
+ rev "2" .
+ priority "0" .
+ log "\"This is a log of an http header\"" .
+ protocol "http" .
+ endpoint {
+  addr {
+   ip "209.85.202.100" .
+   ":" .
+   port "80" .
+  }
+ }
+ host "google.com" .
+ method "GET" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "48872" .
+  }
+ }
+};
+$ {
+ timestamp "1970-01-01T00:00:00.000000000Z" .
+ sid "0" .
+ gid "1" .
+ rev "2" .
+ priority "0" .
+ alert "\"This is a log of an http header\"" .
+ protocol "http" .
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ host "www.google.com" .
+ method "GET" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+};
+$ {
+ timestamp "1970-01-01T00:00:00.000000000Z" .
+ sid "0" .
+ gid "1" .
+ rev "2" .
+ priority "0" .
+ log "\"This is a log of an http header\"" .
+ protocol "http" .
+ endpoint {
+  addr {
+   ip "172.253.116.147" .
+   ":" .
+   port "80" .
+  }
+ }
+ host "www.google.com" .
+ method "GET" .
+ principal {
+  addr {
+   ip "10.67.21.59" .
+   ":" .
+   port "55904" .
+  }
+ }
+};

@@ -1,0 +1,42 @@
+#ifndef rules_7A3F91C4
+#define rules_7A3F91C4
+
+// Snort includes
+#include <detection/detection_engine.h>
+
+// System includes
+
+// Global includes
+#include "framework/module.h"
+#include <trout_plugins/common/trout_gid.h>
+
+// Local includes
+
+// Debug includes
+
+namespace mqtt_plugin {
+
+enum class SID {
+  message_malformed = 1110,
+  message_has_extra_data = 1111,
+  com_on_refused_connection = 1113,
+  server_out_of_sync = 1114,
+  client_out_of_sync = 1115,
+  topic_name_invalid = 1116,
+  unsupported_version = 1129,
+  reserved_message = 1130,
+  connect_message_misplaced = 1131,
+  new_ip_for_client_id = 1132,
+};
+
+constexpr unsigned gid = Common::trout_gid; // Module wide GID
+
+inline unsigned U(SID sid) { return static_cast<unsigned>(sid); }
+
+inline void queue(SID sid) { snort::DetectionEngine::queue_event(gid, U(sid)); }
+
+extern const snort::RuleMap s_rules[];
+
+} // namespace mqtt_plugin
+
+#endif // #ifndef rules_7A3F91C4

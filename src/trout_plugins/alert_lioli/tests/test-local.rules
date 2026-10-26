@@ -1,0 +1,22 @@
+
+
+alert ip any any -> any any (
+  msg:"This is a log of an http header where the host is google";
+
+  http_header:field host;
+  lioli_bind: $.host;
+  content:"google";
+
+  http_method;
+  lioli_bind:$.principal.method;
+
+  lioli_tag: $.principal.tag "Rule 27";
+
+  rem: reference test;
+  reference: url,www.my.domain;
+  reference: msb,"my id";
+
+  classtype: not-suspicious;
+  priority: 5;
+)
+

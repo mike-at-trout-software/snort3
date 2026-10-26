@@ -1,0 +1,24 @@
+# Inspectors and spells are in place to attribute the correct flow
+pcap testdata/google_http.pcap
+cmp output.hex testdata/netflow2_test.expected.hex
+
+-- cfg.lua --
+
+
+stream = {}
+stream_tcp = {}
+stream_udp = {}
+
+serializer_hex = {}
+serializer_raw = { secret_sequence = "0022445566AABBCCDD" }
+
+logger_file = { serializer = 'serializer_hex',
+                file_name = 'output.hex'}
+
+trout_netflow2 = { logger = 'logger_file',
+                   testmode = true }
+
+
+
+
+
