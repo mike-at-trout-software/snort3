@@ -20,6 +20,7 @@
 #ifndef ALT_SIGNAL_STACK_H
 #define ALT_SIGNAL_STACK_H
 
+#include <cerrno>
 #include <csignal>
 #include <cstdint>
 
